@@ -26,6 +26,11 @@ margin: 5vw;
   width: 15vw;
 }
 
+.pic {
+  border-radius: 50%;
+  width: 10vw;
+}
+
 /* end changes */
 
 

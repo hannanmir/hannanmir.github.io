@@ -26,9 +26,9 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto">
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#pic">About</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Projects</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#signup">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
                     </ul>
                 </div>
             </div>
@@ -39,7 +39,7 @@
                 <div class="mx-auto text-center">
                     <h1 class="mx-auto my-0 text-uppercase">Hannan Mir</h1>
                     <h2 class="text-white-50 mx-auto mt-2 mb-5">Full stack developer, creative problem solver, and team leader.</h2>
-                    <a class="btn btn-primary js-scroll-trigger" href="#about">Who am I?</a>
+                    <a class="btn btn-primary js-scroll-trigger" href="#pic">Who am I?</a>
                 </div>
             </div>
         </header>
@@ -48,6 +48,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-8 mx-auto">
+                        <img class="pic" id="pic" src="https://avatars2.githubusercontent.com/u/65094501?s=460&u=3447b0096a030737b754b51b8424ed50977075a8&v=4" alt="Hannan Mir" />
                         <h2 class="text-white mb-4">One Developer. Full Stack.</h2>
                         <p class="text-white-50">
                             Trained and proficient with the full stack, I am competent with all aspects of web development. Front end skills and experience include JS/ CSS and proficiency with React/ Redux and popular framework Material-UI. I round out my development skills with Node, Express, Axios, and PostgreSQL. Check out some of my RESTful fullstack CRUD projects below.
@@ -60,11 +61,12 @@
             </div>
         </section>
         <!-- Projects-->
-        <section class="projects-section bg-light" id="projects">
-            <div class="container">
+        <section class="projects-section bg-light" >
+            <div class="container" >
                 <!-- Featured Project Row-->
-                <div class="row align-items-center no-gutters mb-4 mb-lg-5">
-                    <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="assets\img\mise-en-place.png" alt="Mise En Place" /></div>
+                <h1 class="row align-items-center justify-content-center no-gutters" id="projects" >My Work</h1>
+                <div class="row align-items-center no-gutters mb-4 mb-lg-5" >
+                    <div class="col-xl-8 col-lg-7"><a href="https://github.com/hannanmir/mise-en-place"><img class="img-fluid mb-3 mb-lg-0" src="assets\img\mise-en-place.png" alt="Mise En Place" /></a></div>
                     <div class="col-xl-4 col-lg-5">
                         <div class="featured-text text-center text-lg-left">
                             <h4><i>Mise En Place</i></h4>
@@ -74,7 +76,7 @@
                 </div>
                 <!-- Project One Row-->
                 <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
-                    <div class="col-lg-6"><img class="img-fluid" src="assets\img\movie-gallery.png" alt="" /></div>
+                    <div class="col-lg-6"><a href="https://github.com/hannanmir/react-gallery"><img class="img-fluid" src="assets\img\movie-gallery.png" alt="" /></a></div>
                     <div class="col-lg-6">
                         <div class="bg-black text-center h-100 project">
                             <div class="d-flex h-100">
@@ -95,7 +97,7 @@
                             <div class="d-flex h-100">
                                 <div class="project-text w-100 my-auto text-center text-lg-right">
                                     <h4 class="text-white">Galerie Des Chats</h4>
-                                    <p class="mb-0 text-white-50">A react based social media gallery where users can upload images and provide descriptions. Further functionality includes the ability to like images and the amount of likes are shown for each image. Users can also choose to delete an image.</p>
+                                    <p class="mb-0 text-white-50">A react based social media cat gallery where users can upload images and provide descriptions. Further functionality includes the ability to like images and the amount of likes are shown for each image. Users can also choose to delete an image.</p>
                                     <hr class="d-none d-lg-block mb-0 mr-0" />
                                 </div>
                             </div>
@@ -105,7 +107,7 @@
             </div>
         </section>
         <!-- Signup-->
-        <section class="signup-section" id="signup">
+        <!-- <section class="signup-section" id="signup">
             <div class="container">
                 <div class="row">
                     <div class="col-md-10 col-lg-8 mx-auto text-center">
@@ -118,18 +120,18 @@
                     </div>
                 </div>
             </div>
-        </section>/
+        </section>/ -->
         <!-- Contact-->
-        <section class="contact-section bg-black">
+        <section class="contact-section bg-black" id="contact">
             <div class="container">
                 <div class="row">
                     <div class="col-md-4 mb-3 mb-md-0">
                         <div class="card py-4 h-100">
                             <div class="card-body text-center">
                                 <i class="fas fa-map-marked-alt text-primary mb-2"></i>
-                                <h4 class="text-uppercase m-0">Address</h4>
+                                <h4 class="text-uppercase m-0">Location</h4>
                                 <hr class="my-4" />
-                                <div class="small text-black-50">1240 S 2nd St, Unit 521, Minneapolis, Mn</div>
+                                <div class="small text-black-50">Minneapolis, MN</div>
                             </div>
                         </div>
                     </div>
